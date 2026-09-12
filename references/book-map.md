@@ -12,20 +12,20 @@ details*.
 
 | Ch | Title | Pages | Primary themes |
 | --- | --- | --- | --- |
-| 1 | Trade-Offs in Data Systems Architecture | 1–32 | systems of record vs derived data; cloud-native; when to distribute (8 reasons); microservices cost |
-| 2 | Defining Nonfunctional Requirements | 33–64 | load parameters; percentiles/tail latency; metastable failure & retry storms (~38); fault tolerance; maintainability |
-| 3 | Data Models and Query Languages | 65–114 | relational vs document vs graph; normalization; access-pattern-driven modeling |
-| 4 | Storage and Retrieval | 115–160 | storage engines, indexes — architecturally: read/write amplification trade-offs |
-| 5 | Encoding and Evolution | 161–196 | backward/forward compat; rolling upgrades; schema evolution; RPC failure semantics; durable execution (~187) |
-| 6 | Replication | 197–250 | leaders/followers; replication lag; read-your-writes; concurrent writes; sync engines & local-first (~220); geo |
-| 7 | Sharding | 251–276 | partitioning schemes; skew/hot spots; rebalancing; routing |
+| 1 | Trade-Offs in Data Systems Architecture | 1–25 | systems of record vs derived data; cloud-native; when to distribute (8 reasons); microservices cost |
+| 2 | Defining Nonfunctional Requirements | 33–56 | load parameters; percentiles/tail latency; metastable failure & retry storms (~38); fault tolerance; maintainability |
+| 3 | Data Models and Query Languages | 65–108 | relational vs document vs graph; normalization; access-pattern-driven modeling |
+| 4 | Storage and Retrieval | 115–150 | storage engines, indexes — architecturally: read/write amplification trade-offs |
+| 5 | Encoding and Evolution | 161–192 | backward/forward compat; rolling upgrades; schema evolution; RPC failure semantics; durable execution (~187) |
+| 6 | Replication | 197–243 | leaders/followers; replication lag; read-your-writes; concurrent writes; sync engines & local-first (~220); geo |
+| 7 | Sharding | 251–272 | partitioning schemes; skew/hot spots; rebalancing; routing |
 | 8 | Transactions | 277–344 | ACID reality; isolation levels & anomalies (Table 8-1 ~335); lost update ~299; write skew ~303; serializable costs; 2PC ~329 |
 | 9 | The Trouble with Distributed Systems | 345–400 | partial failure; timeouts; process pauses; clocks; ordering/causality; leases & fencing (~373); deterministic testing |
 | 10 | Consistency and Consensus | 401–450 | linearizability (~402) & its cost; causal consistency; logical clocks; consensus — when required vs overkill; coordination |
 | 11 | Batch Processing | 451–486 | immutability; deterministic recompute; rebuildable derived state |
 | 12 | Stream Processing | 487–538 | messaging semantics; idempotency; CDC (~503); outbox (~505); event sourcing; ordering; exactly-once reality (~528) |
 | 13 | A Philosophy of Streaming Systems | 539–584 | end-to-end correctness; dataflow integrity; transactions vs streams as correctness tools; materialized state |
-| 14 | Doing the Right Thing | 585–end | correctness/integrity/auditability obligations |
+| 14 | Doing the Right Thing | 585–602 | correctness/integrity/auditability obligations |
 
 ## Hard Parts chapter index
 
@@ -38,14 +38,14 @@ details*.
 | 5 | Component-Based Decomposition | 81–130 | component identification patterns |
 | 6 | Pulling Apart Operational Data | 131–184 | data decomposition; join/materialized-view/shared-schema patterns; when NOT to split data |
 | 7 | Service Granularity | 185–216 | **the core checklist** — integrators (keep together) vs disintegrators (split) |
-| 8 | Reuse Patterns | 219–248 | shared libraries/components — when reuse helps vs hurts |
+| 8 | Reuse Patterns | 219–247 | shared libraries/components — when reuse helps vs hurts |
 | 9 | Data Ownership & Distributed Transactions | 249–282 | single vs common ownership; ownership boundary placement; distributed txn cost |
 | 10 | Distributed Data Access | 283–298 | how services read data they don't own |
-| 11 | Managing Distributed Workflows | 299–322 | orchestration vs choreography trade-offs |
+| 11 | Managing Distributed Workflows | 299–321 | orchestration vs choreography trade-offs |
 | 12 | Transactional Sagas | 323–364 | the 8 named sagas; compensating transactions; state management |
 | 13 | Contracts | 365–380 | strict vs loose; stamp coupling; contract versioning |
-| 14 | Managing Analytical Data | 381–398 | analytical data ownership (skim-level relevance) |
-| 15 | Build Your Own Trade-Off Analysis | 399–end | analysis methodology; fitness-function practice; governance |
+| 14 | Managing Analytical Data | 381–397 | analytical data ownership (skim-level relevance) |
+| 15 | Build Your Own Trade-Off Analysis | 399–416 | analysis methodology; fitness-function practice; governance |
 
 ## Topic cross-index (use this when routing a question)
 

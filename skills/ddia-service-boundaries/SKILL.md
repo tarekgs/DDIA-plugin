@@ -33,7 +33,7 @@ load-bearing and unchallenged.
 
 ### 2. The granularity score
 
-Integrators (keep together) vs disintegrators (split) — Hard Parts ch.7 ~pp.185–218:
+Integrators (keep together) vs disintegrators (split) — Hard Parts ch.7 ~pp.185–216:
 
 **Integrators**
 - shared transactions / invariants spanning the data
