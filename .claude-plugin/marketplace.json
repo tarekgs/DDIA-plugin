@@ -1,0 +1,27 @@
+{
+  "name": "ddia-engineering",
+  "owner": {
+    "name": "Tarek"
+  },
+  "plugins": [
+    {
+      "name": "ddia-engineering",
+      "source": "./",
+      "description": "Data-intensive and distributed-systems engineering judgment for coding agents, distilled from Designing Data-Intensive Applications (2e) and Software Architecture: The Hard Parts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Tarek"
+      },
+      "homepage": "https://github.com/tarekgs/DDIA-plugin",
+      "repository": "https://github.com/tarekgs/DDIA-plugin",
+      "license": "MIT",
+      "keywords": [
+        "architecture",
+        "distributed-systems",
+        "data-intensive",
+        "ddia",
+        "agent-skills"
+      ]
+    }
+  ]
+}
